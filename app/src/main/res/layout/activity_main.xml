@@ -69,17 +69,17 @@
 
     <TextView
         android:id="@+id/tv_message"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
         android:fontFamily="@font/aclonica"
         android:gravity="center"
-        android:paddingHorizontal="60dp"
+        android:padding="40dp"
         android:text="@string/message_body"
         android:textAllCaps="true"
         android:textColor="@color/blue"
-        android:textSize="22sp"
+        android:textSize="36sp"
        />
 
     <ImageView

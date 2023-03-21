@@ -254,15 +254,13 @@
             motion:layout_constraintBottom_toBottomOf="@+id/info_layout"
             motion:layout_constraintEnd_toEndOf="@+id/info_layout"
             motion:layout_constraintStart_toStartOf="@+id/info_layout"
-            motion:layout_constraintHorizontal_bias="0.493"
-            motion:layout_constraintTop_toTopOf="@+id/info_layout"
-            android:layout_marginTop="70dp"
-            motion:layout_constraintVertical_bias="0.442" />
+            android:layout_marginTop="24dp"
+            motion:layout_constraintTop_toTopOf="@+id/info_layout" />
         <Constraint
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="70dp"
+            android:layout_marginBottom="48dp"
             motion:layout_constraintBottom_toTopOf="@+id/tv_message"
             motion:layout_constraintEnd_toEndOf="@+id/tv_message"
             motion:layout_constraintStart_toStartOf="@+id/tv_message" />
